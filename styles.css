@@ -1,0 +1,307 @@
+body {
+
+    background-color: #212121;
+    margin: 0px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+#image {
+    margin: 0px;
+    padding: 0px 0px;
+    width: 10vw;
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 10vw;
+    background-color: #303030;
+    height: 615px;
+    position: fixed;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 20px 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+li a:hover:not(.home) {
+    background-color: #000;
+    color: white;
+}
+
+li a:link.home {
+    background-color: #000;
+    color: white;
+}
+
+li a:hover.home {
+
+    background-color: #aaa;
+    color: #000000;
+}
+
+img,
+p {
+    display: inline;
+}
+
+#right1 {
+    padding-left: 140px;
+    font-size: 4vw;
+}
+
+#right2 {
+    padding-left: 140px;
+    font-size: 20px;
+}
+
+#right {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+#main {
+    width: 75%;
+    float: left;
+    padding-left: 17vw;
+
+
+}
+
+/* name */
+#name {
+    float: left;
+    text-align: justify;
+    padding-left: 17vw;
+    padding-right: 7vw;
+    margin-bottom: 10px;
+
+}
+
+.name1 {
+    font-size: 4vw;
+}
+
+.name2 {
+    font-size: medium;
+}
+ .skills {
+     padding-left: 17vw;
+     padding-right: 7vw;
+ }
+
+ .skill1 {
+     font-size: 4vw;
+
+ }
+
+ .paraleb {
+     font-size: 2vw;
+ }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    /* The width is 100%, when the viewport is 800px or smaller */
+    ul {
+        width: 100%;
+        height: 55px;
+    }
+
+    #image {
+        display: none;
+    }
+
+    li a {
+        display: inline;
+        padding: 10px 3vw;
+        font-size: 9px;
+    }
+
+    a {
+        float: left;
+    }
+
+    #right {
+
+        padding-top: 80px;
+    }
+
+    #right1 {
+        padding-left: 12vw;
+        font-size: 4vw;
+        padding-right: 12vw;
+    }
+
+    #right2 {
+        padding-left: 12vw;
+        font-size: 2vw;
+        padding-right: 12vw;
+    }
+
+    p {
+        padding-left: 0px;
+    }
+
+    i.icon {
+        font-size: 14px
+    }
+
+    #main {
+        width: 75%;
+        padding-left: 12vw;
+        float: left;
+
+    }
+
+    /* name */
+    #name {
+        padding-left: 12vw;
+        padding-right: 12vw;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+    .name1 {
+        font-size: 4vw;
+    }
+
+    .name2 {
+        font-size: 12px;
+    }
+
+    .skills {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+
+    .skill1 {
+        font-size: 4vw;
+
+    }
+
+    .paraleb {
+        font-size: 2vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    /* The width is 100%, when the viewport is 800px or smaller */
+    ul {
+        width: 100%;
+        height: 50px;
+    }
+
+    #image {
+        display: none;
+    }
+
+    li a {
+        display: inline;
+        padding: 10px 3vw;
+        font-size: 7px;
+    }
+
+    a {
+        float: left;
+    }
+
+    #right {
+
+        padding-top: 80px;
+    }
+
+    #right1 {
+        padding-left: 6vw;
+        font-size: 15px;
+        padding-right: 6vw;
+    }
+
+    #right2 {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 5vw;
+        font-size: 8px;
+        padding-right: 6vw;
+    }
+
+    p {
+        padding-left: 0px;
+    }
+
+    i.icon {
+        font-size: 12px
+    }
+
+    #main {
+        width: 75%;
+        padding-left: 12vw;
+        float: left;
+
+    }
+
+    /* name */
+    #name {
+        padding-left: 12vw;
+        padding-right: 12vw;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+    .name1 {
+        font-size: 4vw;
+    }
+
+    .name2 {
+        font-size: 10px;
+
+    }
+
+    .skills {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+
+    .skill1 {
+        font-size: 4vw;
+
+    }
+
+    .paraleb {
+        font-size: 2vw;
+    }
+
+
+}
